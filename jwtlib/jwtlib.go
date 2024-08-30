@@ -83,9 +83,9 @@ func ValidateToken(s string, key *rsa.PublicKey, validateClaims func(claims jwt.
 }
 
 // DefaultClaims returns a set of default JWT claims.
-func DefaultClaims(username, audience string) jwt.MapClaims {
+func DefaultClaims(iss, username, audience string) jwt.MapClaims {
 	return jwt.MapClaims{
-		"iss":      "my-auth-server",
+		"iss":      iss,
 		"username": username,
 		"aud":      audience,
 		"exp":      time.Now().Add(time.Hour).Unix(),
