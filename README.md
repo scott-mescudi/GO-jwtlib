@@ -1,6 +1,6 @@
 # jwtlib
 
-`jwtlib` is a Go library for generating and validating JWT (JSON Web Tokens) using RSA keys. This library is designed to be simple, flexible, and easy to integrate into your Go applications. Note that this library was made for personal use by me.
+`jwtlib` is a Go library for generating and validating JWT (JSON Web Tokens) using RSA keys. This library is designed to be simple, flexible, and easy to integrate into your Go applications. Note that this library was made for personal use.
 
 ## Features
 
