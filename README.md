@@ -13,7 +13,7 @@
 To install the library, run:
 
 ```bash
-go get github.com/scott-mescudi/jwtlib
+go get github.com/scott-mescudi/GO-jwtlib/jwtlib
 ```
 
 Make sure to replace `scott-mescudi` with your actual GitHub username or wherever the repository is hosted.
@@ -23,7 +23,7 @@ Make sure to replace `scott-mescudi` with your actual GitHub username or whereve
 ### Importing the Package
 
 ```go
-import "github.com/scott-mescudi/jwtlib"
+import "github.com/scott-mescudi/GO-jwtlib/jwtlib"
 ```
 
 ### Loading RSA Keys
